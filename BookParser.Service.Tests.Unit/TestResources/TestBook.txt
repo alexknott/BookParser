@@ -1,0 +1,3 @@
+﻿some simple test* data
+for use  in my unit tests,
+to prove "" the code executes as intended

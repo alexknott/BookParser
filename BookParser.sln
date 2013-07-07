@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookParser.ConsoleApplication", "BookParser.ConsoleApplication\BookParser.ConsoleApplication.csproj", "{10CE69E5-3420-4662-BB9D-1053E36C2D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookParser.Service", "BookParser.Service\BookParser.Service.csproj", "{5BA87A00-DAA8-48AF-BFCD-F07EB3C3A9EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests.Unit", "Tests.Unit", "{5E8A687C-C464-4294-A895-036A0C01F231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookParser.Service.Tests.Unit", "BookParser.Service.Tests.Unit\BookParser.Service.Tests.Unit.csproj", "{429E4153-E1A6-43DB-8429-B1B05EE4D1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication.Library", "ConsoleApplication.Library\ConsoleApplication.Library.csproj", "{5E101430-A845-4AD0-A8A2-783E45FC7358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication.Library.Tests.Unit", "ConsoleApplication.Library.Tests.Unit\ConsoleApplication.Library.Tests.Unit.csproj", "{7090CB2F-8A12-4D73-84AC-DA193C61701B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookParser.ConsoleApplication.Tests.Unit", "BookParser.ConsoleApplication.Tests.Unit\BookParser.ConsoleApplication.Tests.Unit.csproj", "{1FAF4D54-2C78-4D2E-9C37-7991095C585B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests.Integration", "Tests.Integration", "{01595524-D0AD-4031-9BAD-DDFCAD102FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0C4DE454-7CFD-47BE-AE5C-0AB3D159A435}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10CE69E5-3420-4662-BB9D-1053E36C2D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CE69E5-3420-4662-BB9D-1053E36C2D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CE69E5-3420-4662-BB9D-1053E36C2D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CE69E5-3420-4662-BB9D-1053E36C2D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA87A00-DAA8-48AF-BFCD-F07EB3C3A9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA87A00-DAA8-48AF-BFCD-F07EB3C3A9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA87A00-DAA8-48AF-BFCD-F07EB3C3A9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA87A00-DAA8-48AF-BFCD-F07EB3C3A9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429E4153-E1A6-43DB-8429-B1B05EE4D1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429E4153-E1A6-43DB-8429-B1B05EE4D1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429E4153-E1A6-43DB-8429-B1B05EE4D1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429E4153-E1A6-43DB-8429-B1B05EE4D1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E101430-A845-4AD0-A8A2-783E45FC7358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E101430-A845-4AD0-A8A2-783E45FC7358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E101430-A845-4AD0-A8A2-783E45FC7358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E101430-A845-4AD0-A8A2-783E45FC7358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7090CB2F-8A12-4D73-84AC-DA193C61701B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7090CB2F-8A12-4D73-84AC-DA193C61701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7090CB2F-8A12-4D73-84AC-DA193C61701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7090CB2F-8A12-4D73-84AC-DA193C61701B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAF4D54-2C78-4D2E-9C37-7991095C585B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAF4D54-2C78-4D2E-9C37-7991095C585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAF4D54-2C78-4D2E-9C37-7991095C585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAF4D54-2C78-4D2E-9C37-7991095C585B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{429E4153-E1A6-43DB-8429-B1B05EE4D1C3} = {5E8A687C-C464-4294-A895-036A0C01F231}
+		{7090CB2F-8A12-4D73-84AC-DA193C61701B} = {5E8A687C-C464-4294-A895-036A0C01F231}
+		{1FAF4D54-2C78-4D2E-9C37-7991095C585B} = {5E8A687C-C464-4294-A895-036A0C01F231}
+	EndGlobalSection
+EndGlobal
